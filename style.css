@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-attachment: fixed;
+    background-color: darkblue;
+    background-image: url(imagens/background-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+}
+
+header {
+    background-color: #343A40;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+    padding: 20px 0px;
+    text-align: center;
+    width: 100vw;
+}
+
+main {
+    margin-bottom: 150px;
+}
+
+a#carrinho:hover,
+a#carrinho:active,
+a#loja:hover,
+a#loja:active {
+    text-decoration: none;
+}
+
+#tabelaCarrinho {
+    background-color: #FFFFFF;
+}
+
+#tabelaCarrinho th {
+    background-color: #CCCCCC;
+}
+
+.form-control {
+    margin: 0px 10px;
+    width: calc(100% - 20px);
+}
+
+div.itens > div > section {
+    background-color: #FFFFFF;
+    min-height: 200px;
+    margin-top: 20px;
+    padding-bottom: 10px;
+}
+
+div.itens > div > section > img {
+    display: block;
+    height: 150px;
+    margin: auto;
+    padding: 10px;
+    max-width: 100%;
+}
+
+div.itens > div > section > button {
+    margin-top: 10px;
+}
