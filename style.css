@@ -5,8 +5,8 @@
 }
 
 body {
-    background-attachment: fixed;
     background-color: darkblue;
+    background-attachment: fixed;
     background-image: url(imagens/background-2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
